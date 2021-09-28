@@ -5,7 +5,8 @@
 	"TOMORROW": "내일",
 	"DAYAFTERTOMORROW": "모레",
 	"RUNNING": "종료 일",
-	"EMPTY": "예정된 이벤트가 없습니다.",
+	"EMPTY": "예정된 일정이 없습니다.",
+	"WEEK": "{weekNumber}번째 주",
 
 	"N": "북풍",
 	"NNE": "북북동풍",
@@ -24,8 +25,18 @@
 	"NW": "북서풍",
 	"NNW": "북북서풍",
 
-	"UPDATE_NOTIFICATION": "새로운 MagicMirror² 업데이트가 있습니다.",
-	"UPDATE_NOTIFICATION_MODULE": "{MODULE_NAME} 모듈에서 사용 가능한 업데이트 입니다.",
-	"UPDATE_INFO_SINGLE": "설치할 {COMMIT_COUNT} commit 는 {BRANCH_NAME} 분기에 해당됩니다.",
-	"UPDATE_INFO_MULTIPLE": "설치할 {COMMIT_COUNT} commits 는 {BRANCH_NAME} 분기에 해당됩니다."
+	"FEELS": "체감온도 {DEGREE}",
+	"PRECIP": "강수량",
+	
+	"MODULE_CONFIG_CHANGED": "{MODULE_NAME} 모듈에 대한 구성 설정이 변경되었습니다.\n설명을 확인하세요.",
+	"MODULE_CONFIG_ERROR": "{MODULE_NAME} 모듈에서 오류가 발생햇습니다. {ERROR}",
+	"MODULE_ERROR_MALFORMED_URL": "잘못된 URL입니다.",
+	"MODULE_ERROR_NO_CONNECTION": "인터넷 연결이 없습니다.",
+	"MODULE_ERROR_UNAUTHORIZED": "인증 실패.",
+	"MODULE_ERROR_UNSPECIFIED": "자세한 사항은 로그를 확인하세요.",
+	
+	"UPDATE_NOTIFICATION": "MagicMirror² 업데이트가 가능합니다.",
+	"UPDATE_NOTIFICATION_MODULE": "{MODULE_NAME} 모듈 업데이트가 가능합니다.",
+	"UPDATE_INFO_SINGLE": "현재 설치는 {BRANCH_NAME} 분기의 {COMMIT_COUNT} 커밋에 해당됩니다.",
+	"UPDATE_INFO_MULTIPLE": "현재 설치는 {BRANCH_NAME} 분기의 {COMMIT_COUNT} 커밋들에 해당됩니다."
 }
